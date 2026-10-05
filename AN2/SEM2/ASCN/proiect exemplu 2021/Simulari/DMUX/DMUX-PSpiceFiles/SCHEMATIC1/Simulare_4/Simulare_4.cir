@@ -1,0 +1,21 @@
+** Profile: "SCHEMATIC1-Simulare_4"  [ C:\Users\anonim\Desktop\Facultate\Anul II\SEM II\Analiza si sinteza circuitelor numerice 1\Proiect\Simulari\DMUX\dmux-pspicefiles\schematic1\simulare_4.sim ] 
+
+** Creating circuit file "Simulare_4.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+.INC "C:\Users\anonim\Desktop\Facultate\Anul II\SEM II\Analiza si sinteza circuitelor numerice 1\Proiect\Simulari\DMUX\dmux-pspicef"
++ "iles\schematic1\Simulare_4\Simulare_4_profile.inc" 
+* Local Libraries :
+* From [PSPICE NETLIST] section of D:\Users\anonim\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 16s 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

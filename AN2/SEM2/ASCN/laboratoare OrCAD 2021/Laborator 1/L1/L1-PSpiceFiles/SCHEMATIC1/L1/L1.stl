@@ -1,0 +1,32 @@
+* C:\USERS\USER\DESKTOP\ASCN 1\L1\L1-PSpiceFiles\SCHEMATIC1\L1\L1.stl written on Fri Mar 05 09:20:00 2021
+* by Stimulus Editor -- Lite Version 16.6.0
+;!Stimulus Get
+;! x0 Digital x1 Digital s1 Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 9s
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS x0 STIM (1, 1) ;! CLOCKP 2 1 0 2
++   +0s 0
++   +2s 1
++   Repeat Forever
++      +1s 0
++      +1s 1
++   EndRepeat
+.STIMULUS x1 STIM (1, 1) ;! CLOCKP 2 1 0 0
++   +0s 0
++   +1s 1
++   Repeat Forever
++      +1s 0
++      +1s 1
++   EndRepeat
+.STIMULUS s1 STIM (1, 1) ;! CLOCKP 2 1 0 0
++   +0s 0
++   +1s 1
++   Repeat Forever
++      +1s 0
++      +1s 1
++   EndRepeat

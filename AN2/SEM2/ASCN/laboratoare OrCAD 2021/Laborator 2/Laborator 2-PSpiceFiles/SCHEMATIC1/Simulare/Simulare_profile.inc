@@ -1,0 +1,1 @@
+.STMLIB	".\Simulare.stl" 

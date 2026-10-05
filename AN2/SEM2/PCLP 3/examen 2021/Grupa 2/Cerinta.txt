@@ -1,0 +1,12 @@
+***
+
+Se introduce o propozitie formata din cel putin doua cuvinte.
+
+Să se afișeze numărul de cuvinte dintr-o propoziția introdusă care au cel puțin doua litere.
+ 
+De exemplu:
+
+Se introduce: Ana are multe mere.
+Se afișează: 4
+
+*** 

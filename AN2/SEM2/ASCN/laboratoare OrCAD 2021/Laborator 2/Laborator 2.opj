@@ -1,0 +1,98 @@
+(ExpressProject "Laborator 2"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\laborator 2.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\laborator 2-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\laborator 2-pspicefiles\schematic1\simulare.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\laborator 2-pspicefiles\schematic1\simulare.sim"
+        (DisplayName "SCHEMATIC1-SIMULARE")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User)
+      (File ".\Laborator 2-PSpiceFiles\LABORATOR 2.stl"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\Laborator 2-PSpiceFiles\LABORATOR 2.stl")))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (MPSSessionName "anonim")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\anonim\Desktop\Facultate\Anul II\SEM II\Analiza si sinteza circuitelor numerice 1\Laborator\Laborator 2\laborator 2.dsn")
+      (Path "Design Resources"
+         "C:\Users\anonim\Desktop\Facultate\Anul II\SEM II\Analiza si sinteza circuitelor numerice 1\Laborator\Laborator 2\laborator 2.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\Users\anonim\Desktop\Facultate\Anul II\SEM II\Analiza si sinteza circuitelor numerice 1\Laborator\Laborator 2\laborator 2.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 278"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1408 78 399")
+        (Scroll "-156 220")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ANONIM\DESKTOP\FACULTATE\ANUL II\SEM II\ANALIZA SI SINTEZA CIRCUITELOR NUMERICE 1\LABORATOR\LABORATOR 2\LABORATOR 2.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (PartMRUSelector
+    (NAND3_ABM
+      (FullPartName "NAND3_ABM.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CANDENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DIG_ABM.OLB")
+      (DeviceIndex "0"))
+    (7410
+      (FullPartName "7410.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CANDENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\7400.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName
+         "D:\PROGRAM FILES\CANDENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OR4
+      (FullPartName "OR4.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CANDENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DIG_PRIM.OLB")
+      (DeviceIndex "0"))
+    (AND4
+      (FullPartName "AND4.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CANDENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DIG_PRIM.OLB")
+      (DeviceIndex "0"))
+    (74LS04
+      (FullPartName "74LS04.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CANDENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\74LS.OLB")
+      (DeviceIndex "2"))
+    (DigStim1
+      (FullPartName "DigStim1.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CANDENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "D:\Program Files\Candence\SPB_17.2\tools\capture\library\pspice"))

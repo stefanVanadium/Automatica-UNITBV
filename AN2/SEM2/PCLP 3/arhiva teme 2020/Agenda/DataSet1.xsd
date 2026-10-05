@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DataSet1" targetNamespace="http://tempuri.org/DataSet1.xsd" xmlns:mstns="http://tempuri.org/DataSet1.xsd" xmlns="http://tempuri.org/DataSet1.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DataSet1" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DataSet1" msprop:Generator_UserDSName="DataSet1">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Agenda" msprop:Generator_TableClassName="AgendaDataTable" msprop:Generator_TableVarName="tableAgenda" msprop:Generator_TablePropName="Agenda" msprop:Generator_RowDeletingName="AgendaRowDeleting" msprop:Generator_RowChangingName="AgendaRowChanging" msprop:Generator_RowEvHandlerName="AgendaRowChangeEventHandler" msprop:Generator_RowDeletedName="AgendaRowDeleted" msprop:Generator_UserTableName="Agenda" msprop:Generator_RowChangedName="AgendaRowChanged" msprop:Generator_RowEvArgName="AgendaRowChangeEvent" msprop:Generator_RowClassName="AgendaRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Numar_x0020_de_x0020_telefon" msprop:Generator_ColumnVarNameInTable="columnNumar_de_telefon" msprop:Generator_ColumnPropNameInRow="Numar_de_telefon" msprop:Generator_ColumnPropNameInTable="Numar_de_telefonColumn" msprop:Generator_UserColumnName="Numar de telefon" type="xs:string" minOccurs="0" />
+              <xs:element name="Nume_x0020_si_x0020_prenume" msprop:Generator_ColumnVarNameInTable="columnNume_si_prenume" msprop:Generator_ColumnPropNameInRow="Nume_si_prenume" msprop:Generator_ColumnPropNameInTable="Nume_si_prenumeColumn" msprop:Generator_UserColumnName="Nume si prenume" type="xs:string" minOccurs="0" />
+              <xs:element name="Adresa_x0020_de_x0020_e-mail" msprop:Generator_ColumnVarNameInTable="_columnAdresa_de_e_mail" msprop:Generator_ColumnPropNameInRow="_Adresa_de_e_mail" msprop:Generator_ColumnPropNameInTable="_Adresa_de_e_mailColumn" msprop:Generator_UserColumnName="Adresa de e-mail" type="xs:string" minOccurs="0" />
+              <xs:element name="ID" msdata:AutoIncrement="true" msdata:AutoIncrementSeed="-1" msdata:AutoIncrementStep="-1" msprop:Generator_ColumnVarNameInTable="columnID" msprop:Generator_ColumnPropNameInRow="ID" msprop:Generator_ColumnPropNameInTable="IDColumn" msprop:Generator_UserColumnName="ID" type="xs:int" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="AgendaKey" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:Agenda" />
+      <xs:field xpath="mstns:ID" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

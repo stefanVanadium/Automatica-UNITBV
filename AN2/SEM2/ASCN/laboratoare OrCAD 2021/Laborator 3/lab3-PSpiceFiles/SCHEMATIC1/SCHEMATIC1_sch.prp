@@ -1,0 +1,379 @@
+("FILE_TYPE"	"PMAP File"
+    ("devices"
+        ("OR2")
+        ("INV")
+        ("AND2")
+        ("DigStim1")
+        ("7485")
+    )
+    ("instances"
+        ("bl2.U5"
+            ("device_name"	"OR2")
+            ("pspice_path"	"X_bl2_U5")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl2.U1"
+            ("device_name"	"INV")
+            ("pspice_path"	"X_bl2_U1")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl2.U4"
+            ("device_name"	"AND2")
+            ("pspice_path"	"X_bl2_U4")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl2.U6"
+            ("device_name"	"INV")
+            ("pspice_path"	"X_bl2_U6")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl2.U7"
+            ("device_name"	"AND2")
+            ("pspice_path"	"X_bl2_U7")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl2.U2"
+            ("device_name"	"INV")
+            ("pspice_path"	"X_bl2_U2")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl2.U3"
+            ("device_name"	"AND2")
+            ("pspice_path"	"X_bl2_U3")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl3.U5"
+            ("device_name"	"OR2")
+            ("pspice_path"	"X_bl3_U5")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl3.U1"
+            ("device_name"	"INV")
+            ("pspice_path"	"X_bl3_U1")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl3.U4"
+            ("device_name"	"AND2")
+            ("pspice_path"	"X_bl3_U4")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl3.U6"
+            ("device_name"	"INV")
+            ("pspice_path"	"X_bl3_U6")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl3.U7"
+            ("device_name"	"AND2")
+            ("pspice_path"	"X_bl3_U7")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl3.U2"
+            ("device_name"	"INV")
+            ("pspice_path"	"X_bl3_U2")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl3.U3"
+            ("device_name"	"AND2")
+            ("pspice_path"	"X_bl3_U3")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl4.U5"
+            ("device_name"	"OR2")
+            ("pspice_path"	"X_bl4_U5")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl4.U1"
+            ("device_name"	"INV")
+            ("pspice_path"	"X_bl4_U1")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl4.U4"
+            ("device_name"	"AND2")
+            ("pspice_path"	"X_bl4_U4")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl4.U6"
+            ("device_name"	"INV")
+            ("pspice_path"	"X_bl4_U6")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl4.U7"
+            ("device_name"	"AND2")
+            ("pspice_path"	"X_bl4_U7")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl4.U2"
+            ("device_name"	"INV")
+            ("pspice_path"	"X_bl4_U2")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl4.U3"
+            ("device_name"	"AND2")
+            ("pspice_path"	"X_bl4_U3")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl5.U5"
+            ("device_name"	"OR2")
+            ("pspice_path"	"X_bl5_U5")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl5.U1"
+            ("device_name"	"INV")
+            ("pspice_path"	"X_bl5_U1")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl5.U4"
+            ("device_name"	"AND2")
+            ("pspice_path"	"X_bl5_U4")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl5.U6"
+            ("device_name"	"INV")
+            ("pspice_path"	"X_bl5_U6")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl5.U7"
+            ("device_name"	"AND2")
+            ("pspice_path"	"X_bl5_U7")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl5.U2"
+            ("device_name"	"INV")
+            ("pspice_path"	"X_bl5_U2")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("bl5.U3"
+            ("device_name"	"AND2")
+            ("pspice_path"	"X_bl5_U3")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("0"
+            ("device_name"	"DigStim1")
+            ("pspice_path"	"U_0")
+            ("level"	"0")
+            ("model_params"
+                ("IOMODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IOMODEL")
+                )
+                ("STIMTYPE"
+                    ("value"	"DIGITAL")
+                    ("pspice_param"	"STIMTYPE")
+                )
+            )
+        )
+        ("1"
+            ("device_name"	"DigStim1")
+            ("pspice_path"	"U_1")
+            ("level"	"0")
+            ("model_params"
+                ("IOMODEL"
+                    ("value"	"IO_STM")
+                    ("pspice_param"	"IOMODEL")
+                )
+                ("STIMTYPE"
+                    ("value"	"DIGITAL")
+                    ("pspice_param"	"STIMTYPE")
+                )
+            )
+        )
+        ("U1"
+            ("device_name"	"INV")
+            ("pspice_path"	"X_U1")
+            ("level"	"0")
+            ("model_params"
+                ("IMPL"
+                    ("value"	"PLSYN")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+        ("U2"
+            ("device_name"	"7485")
+            ("pspice_path"	"X_U2")
+            ("level"	"0")
+            ("model_params"
+                ("IO_LEVEL"
+                    ("value"	"0")
+                    ("pspice_param"	"IO_LEVEL")
+                )
+                ("MNTYMXDLY"
+                    ("value"	"0")
+                    ("pspice_param"	"MNTYMXDLY")
+                )
+                ("IMPL"
+                    ("value"	"")
+                    ("pspice_param"	"IMPL")
+                )
+            )
+        )
+    )
+)

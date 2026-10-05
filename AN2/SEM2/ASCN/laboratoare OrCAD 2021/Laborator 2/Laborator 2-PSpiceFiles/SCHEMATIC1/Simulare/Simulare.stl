@@ -1,0 +1,55 @@
+* C:\Users\anonim\Desktop\Facultate\Anul II\SEM II\Analiza si sinteza circuitelor numerice 1\Laborator\Laborator 2\Laborator 2-PSpiceFiles\SCHEMATIC1\Simulare\Simulare.stl written on Fri Mar 26 13:11:37 2021
+* by Stimulus Editor -- Lite Version 17.2.0
+;!Stimulus Get
+;! E Digital I0 Digital I1 Digital I2 Digital I3 Digital A0 Digital A1 Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 140s
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS E STIM (1, 1)
++   +0s 0
+.STIMULUS I0 STIM (1, 1) ;! CLOCKP 1 0.5 0 0
++   +0s 0
++   +500ms 1
++   Repeat Forever
++      +500ms 0
++      +500ms 1
++   EndRepeat
+.STIMULUS I1 STIM (1, 1) ;! CLOCKP 2 1 0 0
++   +0s 0
++   +1s 1
++   Repeat Forever
++      +1s 0
++      +1s 1
++   EndRepeat
+.STIMULUS I2 STIM (1, 1) ;! CLOCKP 4 2 0 0
++   +0s 0
++   +2s 1
++   Repeat Forever
++      +2s 0
++      +2s 1
++   EndRepeat
+.STIMULUS I3 STIM (1, 1) ;! CLOCKP 8 4 0 0
++   +0s 0
++   +4s 1
++   Repeat Forever
++      +4s 0
++      +4s 1
++   EndRepeat
+.STIMULUS A0 STIM (1, 1) ;! CLOCKP 16 8 0 0
++   +0s 0
++   +8s 1
++   Repeat Forever
++      +8s 0
++      +8s 1
++   EndRepeat
+.STIMULUS A1 STIM (1, 1) ;! CLOCKP 32 16 0 0
++   +0s 0
++   +16s 1
++   Repeat Forever
++      +16s 0
++      +16s 1
++   EndRepeat

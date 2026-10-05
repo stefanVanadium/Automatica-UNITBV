@@ -1,0 +1,32 @@
+* C:\USERS\USER\DESKTOP\ASCN 1\L1\da-PSpiceFiles\SCHEMATIC1\f\f.stl written on Fri Mar 05 11:11:26 2021
+* by Stimulus Editor -- Lite Version 16.6.0
+;!Stimulus Get
+;! gd Digital gfhf Digital bdfx Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 2.2s
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS gd STIM (1, 1) ;! CLOCK 50 0.5 0 2
++   +0s 0
++   +2s 1
++   Repeat Forever
++      +10ms 0
++      +10ms 1
++   EndRepeat
+.STIMULUS gfhf STIM (1, 1) ;! CLOCK 60 0.5 0 0
++   +0s 0
++   +8.333333333333ms 1
++   Repeat Forever
++      +8.333333333333ms 0
++      +8.333333333333ms 1
++   EndRepeat
+.STIMULUS bdfx STIM (1, 1) ;! CLOCK 57 0.5 0 0
++   +0s 0
++   +8.771929824561ms 1
++   Repeat Forever
++      +8.771929824561ms 0
++      +8.771929824561ms 1
++   EndRepeat

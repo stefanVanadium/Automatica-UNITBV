@@ -1,0 +1,11 @@
+s=tf('s');
+G1=1/(s+2);
+G2=1/(s+3);
+G3=(s+1)/(s^2+6*s);
+H1=7;
+H2=5;
+H1_G3=H1/G3;
+G23=series(G2,G3);
+Gfed=feedback(H2,G23);
+G1_fed=series(G1,Gfed);
+Ge=feedback(G1_fed,H1_G3)

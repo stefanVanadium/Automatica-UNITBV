@@ -1,0 +1,118 @@
+(ExpressProject "lab3"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\lab3.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\lab3-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\lab3-pspicefiles\schematic1\sim_lab3.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lab3-pspicefiles\schematic1\sim_lab3.sim"
+        (DisplayName "SCHEMATIC1-sim_lab3")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (INV
+      (FullPartName "INV.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DIG_PRIM.OLB")
+      (DeviceIndex "0"))
+    (7485
+      (FullPartName "7485.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CANDENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\7400.OLB")
+      (DeviceIndex "0"))
+    (DigStim1
+      (FullPartName "DigStim1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0"))
+    (74LS85
+      (FullPartName "74LS85.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CANDENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\74LS.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (AND2
+      (FullPartName "AND2.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DIG_PRIM.OLB")
+      (DeviceIndex "0"))
+    (OR2
+      (FullPartName "OR2.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DIG_PRIM.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\anonim\Desktop\Facultate\Anul II\SEM II\Analiza si sinteza circuitelor numerice 1\Laborator\Laborator 3\lab3.dsn")
+      (Path "Design Resources"
+         "C:\Users\anonim\Desktop\Facultate\Anul II\SEM II\Analiza si sinteza circuitelor numerice 1\Laborator\Laborator 3\lab3.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 285"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 52 1382 52 373")
+        (Scroll "0 132")
+        (Zoom "112")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ANONIM\DESKTOP\FACULTATE\ANUL II\SEM II\ANALIZA SI SINTEZA CIRCUITELOR NUMERICE 1\LABORATOR\LABORATOR 3\LAB3.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1408 78 399")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/bl3"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1434 104 425")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/bl2"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 130 1460 130 451")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/bl4"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 1330 0 321")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/bl5"))
+      (Path
+         "C:\USERS\ANONIM\DESKTOP\FACULTATE\ANUL II\SEM II\ANALIZA SI SINTEZA CIRCUITELOR NUMERICE 1\LABORATOR\LABORATOR 3\LAB3.DSN")
+      (Schematic "comparator_pe_4_biti")
+      (Page "b1")))
+  (MPSSessionName "anonim"))

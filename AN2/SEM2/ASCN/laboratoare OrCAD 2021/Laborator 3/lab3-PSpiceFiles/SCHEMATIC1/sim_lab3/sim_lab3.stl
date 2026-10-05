@@ -1,0 +1,15 @@
+* H:\Facultate\An II\Semestrul 2\ASCN\Lab\Laborator 3\lab3-PSpiceFiles\SCHEMATIC1\sim_lab3\sim_lab3.stl written on Fri Apr 02 09:18:15 2021
+* by Stimulus Editor -- Lite Version 17.2.0
+;!Stimulus Get
+;! Eqln Digital S1 Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 1us
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS Eqln STIM (1, 1)
++   +0s 1
+.STIMULUS S1 STIM (1, 1)
++   +0s 1

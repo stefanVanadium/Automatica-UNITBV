@@ -1,0 +1,15 @@
+***
+
+Se introduce de la tastură un număr întreg în intervalul [20,99].
+
+Să se afișeze numărul convertit în litere.
+
+De exemplu:
+
+Se introduce:
+"57"
+
+Se afișează:
+cincizeci si sapte
+
+***

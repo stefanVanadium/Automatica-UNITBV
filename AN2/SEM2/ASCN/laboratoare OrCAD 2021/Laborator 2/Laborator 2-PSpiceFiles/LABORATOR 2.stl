@@ -1,0 +1,25 @@
+* C:\Users\anonim\Desktop\Facultate\Anul II\SEM II\Analiza si sinteza circuitelor numerice 1\Laborator\Laborator 2\Laborator 2-PSpiceFiles\LABORATOR 2.stl written on Fri Mar 26 12:36:41 2021
+* by Stimulus Editor -- Lite Version 17.2.0
+;!Stimulus Get
+;! E Digital I0 Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 10s
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS I0 STIM (1, 1) ;! CLOCKP 2.5s 1s 0 0
++   +0s 0
++   +1.5s 1
++   Repeat Forever
++      +1s 0
++      +1.5s 1
++   EndRepeat
+.STIMULUS E STIM (1, 1) ;! CLOCKP 1 0 0 0
++   +0s 0
++   +1s 1
++   Repeat Forever
++      +0s 0
++      +1s 1
++   EndRepeat

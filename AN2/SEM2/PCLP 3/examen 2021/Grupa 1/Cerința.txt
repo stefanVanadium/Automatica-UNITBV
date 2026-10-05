@@ -1,0 +1,17 @@
+***
+
+Se introduce un șir de numere întregi separat prin virgula.
+
+Să se afișeze suma acestor numere.
+
+Numerele introduse de către utilizator se considera corecte.
+
+De exemplu:
+
+Se introduce:
+"1,-2,0,13,20"
+
+Se afișează:
+32
+
+***
