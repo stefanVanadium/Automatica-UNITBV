@@ -1,0 +1,5 @@
+Introduceti dimensiunea tabloului: Data 1
+Introduceti ziua: Introduceti luna: Introduceti anul: Data 2
+Introduceti ziua: Introduceti luna: Introduceti anul: Data 1
+Introduceti ziua: Introduceti luna: Introduceti anul: Data 2
+Introduceti ziua: Introduceti luna: Introduceti anul: 

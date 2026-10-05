@@ -1,3 +1,7 @@
 # AM
 
-Analiza matematica. In `notite/` sunt poze cu notite scrise de mana (cheat sheet-uri pe teme). Daca ai si altceva, adauga.
+Analiza matematica.
+
+- `partiale si examen/`: partialele rezolvate si subiecte de examen (PDF).
+- `subiecte poze/`: poze cu subiecte de examen, pe sesiuni (2023-12, 2025-01, 2025-08).
+- `notite/`: cheat sheet-uri scrise de mana pe teme.

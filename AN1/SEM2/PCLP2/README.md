@@ -1,3 +1,5 @@
 # PCLP2
 
-Programarea calculatoarelor si limbaje de programare II. Gol deocamdata, daca ai ceva de aici adauga.
+Programarea calculatoarelor si limbaje de programare II (Java).
+
+- `subiecte/`: poze cu biletele de examen.

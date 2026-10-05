@@ -1,3 +1,7 @@
 # FIZ
 
-Fizica. In `notite/` sunt poze cu notite scrise de mana (cheat sheet-uri pe teme). Daca ai si altceva, adauga.
+Fizica.
+
+- `subiecte/`: bilete de examen si subiecte rezolvate.
+- `formule/`: fise de formule.
+- `notite/`: notite de curs (PDF si poze cu cheat sheet-uri).
