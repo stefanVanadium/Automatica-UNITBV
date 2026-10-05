@@ -95,11 +95,14 @@ fiecare varianta.
 
 Prin unele foldere e cate un README cu sfaturi pentru materia respectiva, cititi-l inainte.
 
-## Atentie la rezolvari
+## Atentie, pot fi greseli
 
-Rezolvarile de subiecte (facute de mine, de colegi sau cu AI) nu sunt garantat corecte si nici
-neaparat cum le vrea profesorul. Mai ales la TS1, TS 2 si SAE. Verificati cu cursul si cu ce se
-face la seminar.
+Tot ce e scris de studenti aici (rezolvari, notite, rezumate, cheat sheet-uri, cod) poate avea
+greseli. Unele sunt facute in graba, unele cu AI, unele copiate de pe tabla. Verificati mereu
+totul cu cursul si cu ce se face la seminar inainte sa va bazati pe ceva.
+
+La rezolvarile de subiecte, mai ales la TS1, TS 2 si SAE, mai e o problema: chiar daca sunt
+corecte, nu inseamna ca sunt facute cum le vrea profesorul.
 
 ## Cum descarci
 
