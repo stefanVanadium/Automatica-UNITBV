@@ -8,6 +8,9 @@ vechi. Daca ai ceva ce lipseste de aici, adauga. Ideea e sa creasca de la o gene
 
 Folositi-le ca sa intelegeti, nu ca sa copiati. Profii recunosc temele de anul trecut.
 
+Daca esti anul 1: te rog lasa-te de facultatea asta daca vrei sa faci orice legat de programat
+si de proiectare, ca AI-ul face deja mai bine decat toti. Fa orice altceva ce iti place 😭
+
 ## Cum e organizat
 
 ```
