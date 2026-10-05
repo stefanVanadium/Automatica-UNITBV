@@ -1,3 +1,3 @@
 # ALGAD
 
-Algebra liniara, geometrie analitica si diferentiala. Gol deocamdata, daca ai ceva de aici adauga.
+Algebra liniara, geometrie analitica si diferentiala. In `notite/` sunt poze cu notite scrise de mana (cheat sheet-uri pe teme). Daca ai si altceva, adauga.

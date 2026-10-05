@@ -1,3 +1,3 @@
 # AM
 
-Analiza matematica. Gol deocamdata, daca ai ceva de aici adauga.
+Analiza matematica. In `notite/` sunt poze cu notite scrise de mana (cheat sheet-uri pe teme). Daca ai si altceva, adauga.
