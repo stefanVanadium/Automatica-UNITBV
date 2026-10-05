@@ -1,0 +1,116 @@
+(ExpressProject "lab4_hazard_static"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\lab4_hazard_static.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\lab4_hazard_static-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lab4_hazard_static-pspicefiles\schematic1\hazard.sim"
+        (DisplayName "SCHEMATIC1-hazard")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lab4_hazard_static-pspicefiles\schematic1\imp.sim"
+        (DisplayName "SCHEMATIC1-imp")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\lab4_hazard_static-pspicefiles\schematic1\elim_hazard.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\lab4_hazard_static-pspicefiles\schematic1\elim_hazard.sim"
+        (DisplayName "SCHEMATIC1-elim_hazard")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (7407
+      (FullPartName "7407.Normal")
+      (LibraryName
+         "D:\PROGRAM FILES\CANDENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\7400.OLB")
+      (DeviceIndex "2"))
+    (DigStim1
+      (FullPartName "DigStim1.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0"))
+    (OR3
+      (FullPartName "OR3.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DIG_PRIM.OLB")
+      (DeviceIndex "0"))
+    (AND2
+      (FullPartName "AND2.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DATACONV.OLB")
+      (DeviceIndex "0"))
+    (7404
+      (FullPartName "7404.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\EVAL.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (INV
+      (FullPartName "INV.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DATACONV.OLB")
+      (DeviceIndex "0"))
+    (OR2
+      (FullPartName "OR2.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\DATACONV.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "anonim")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\anonim\Desktop\Facultate\Anul II\SEM II\Analiza si sinteza circuitelor numerice 1\Laborator\Laborator 4\lab4_hazard_static.dsn")
+      (Path "Design Resources"
+         "C:\Users\anonim\Desktop\Facultate\Anul II\SEM II\Analiza si sinteza circuitelor numerice 1\Laborator\Laborator 4\lab4_hazard_static.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\Users\anonim\Desktop\Facultate\Anul II\SEM II\Analiza si sinteza circuitelor numerice 1\Laborator\Laborator 4\lab4_hazard_static.dsn"
+         "SCHEMATIC1" "hazard"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 0 253 0 249"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 52 1088 52 373")
+        (Scroll "-9 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ANONIM\DESKTOP\FACULTATE\ANUL II\SEM II\ANALIZA SI SINTEZA CIRCUITELOR NUMERICE 1\LABORATOR\LABORATOR 4\LAB4_HAZARD_STATIC.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "eliminare_hazard"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 104 1140 104 425")
+        (Scroll "-82 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\ANONIM\DESKTOP\FACULTATE\ANUL II\SEM II\ANALIZA SI SINTEZA CIRCUITELOR NUMERICE 1\LABORATOR\LABORATOR 4\LAB4_HAZARD_STATIC.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "hazard"))))

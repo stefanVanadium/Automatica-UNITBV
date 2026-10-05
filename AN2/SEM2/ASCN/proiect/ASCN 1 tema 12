@@ -1,0 +1,55 @@
+Facultatea de Inginerie Electrică și Știința Calculatoarelor
+Departamentul de Automatică și Tehnologia Informației
+
+
+
+FIȘA PROIECTULUI DE DISCIPLINĂ
+
+
+Disciplina: 
+Analiza și sinteza circuitelor numerice I, an II/sem. 4.
+
+
+Tema de proiect nr. 12: 
+Să se proiecteze un convertor de cod de 4 biți pentru conversia codului binar-zecimal neponderat Gray în codul binar-zecimal neponderat „2 din 5” (logică combinațională). 
+
+Cerințe de proiectare: 
+În rezolvarea temei proiectului se vor trata următoarele puncte:
+    • Să se reprezinte funcțiile logice asociate circuitului combinațional prin forma canonică disjunctivă (FCD), forma canonică conjunctivă (FCC), tabel de adevăr şi diagrame Veitch-Karnaugh.
+    • Să se obțină formele minime disjunctive şi conjunctive pentru funcțiile logice asociate convertorului de cod (utilizându-se combinațiile indiferente) prin metoda diagramelor Veitch-Karnaugh; de asemenea, se vor obține formele minime disjunctive pentru primele două dintre funcții logice de ieşire şi prin metoda Quine-McCluskey.
+    • Să se implementeze fiecare funcție logică, independent, numai cu porți logice ŞI-NU (se vor utiliza circuite integrate realizate în tehnologia TTL).
+    • Să se implementeze ansamblul funcțiilor logice numai cu porți logice ŞI-NU (se vor utiliza circuite integrate realizate în tehnologiaTTL).
+    • Să se implementeze ansamblul funcțiilor logice în următoarea variantă: primele două funcții logice de ieşire cu porți logice ŞI-NU (circuite integrate CMOS), iar următoarele trei cu porți logice SAU -NU (circuite integrate TTL).
+    • Să se implementeze ansamblul funcțiilor logice cu MUX-uri de 8, respectiv 16 căi (se vor utiliza circuite integrate realizate în tehnologia TTL).
+    • Să se implementeze ansamblul funcțiilor logice cu DMUX-uri de 8, respectiv 16 căi şi porți logice ŞI-NU în prima variantă, respectiv ŞI în a doua variantă (se vor utiliza circuite integrate realizate în tehnologia CMOS).
+    • Să se calculeze timpii de propagare „intrare-ieşire”, pentru toate schemele logice obținute.
+    • Să se calculeze puterile disipate pentru toate schemele logice obținute.
+    • Să se compare soluțiile de implementare obținute.
+    • Se va face analiza, prin simulare, a tuturor schemelor logice obținute, utilizându-se pachetul de programe OrCAD. 
+Pe schemele logice obținute se vor specifica tipul şi gradul de utilizare al fiecărui circuit integrat.
+
+Bibliografia recomandată:
+[1] Maican, S. – Sisteme numerice cu circuite integrate. Culegere de probleme, Ed. Tehnică, Bucureşti, 1980.
+[2] Ştefan, Gh. M., Bistriceanu, V. – Circuite integrate digitale. Probleme. Proiectare, Ed. Albastră, Cluj-Napoca, 2000.
+[3] Wakerly, J.F. – Circuite digitale, Ed. Teora, Bucureşti, 2002.
+[4] Wilkinson, B. – Electronică digitală. Bazele proiectării, Ed. Teora, Bucureşti, 2002.
+[5] Moldoveanu, F., Floroian, D. – Circuite logice şi comenzi secvențiale. Circuite logice combinaționale, Ed. Universității Transilvania din Braşov, 2003.
+[6] Toacşe, Gh., Nicula, D. – Electronică digitală, Ed. Tehnică, Bucureşti, 2005.
+
+Condiții de redactare:
+Pentru redactare se va folosi template-ul recomandat de cadrul didactic îndrumător.
+
+Evaluări pe parcurs: 
+S-au stabilit două vize pentru evaluarea pe parcurs a proiectului la următoarele date:
+    • viza I-a:     ??.03.2026;
+    • viza a II-a: ??.05.2026.
+
+Termenul de predare și susținere:
+Proiectul se va preda și susține în ultima săptămână a semestrului.
+
+Notarea proiectului: 
+Forma finală a proiectului trebuie să conțină rezolvări pentru toate punctele cerute prin temă iar, din punct de vedere al redactării, să aibă forma solicitată. În cursul susținerii, studentul trebuie să dovedească cunoaștera metodelor specifice de rezolvare pentru problemele date, utilizarea corectă și fluentă a termenilor specifici și interpretarea corectă a rezultatelor. Notarea va porni de la nota 10, dacă studentul a primit ambele vize de evaluare, de la nota 8 dacă studentul a primit o singură viză și de la nota 6 în cazul în care studentul nu are nicio viză. 
+
+
+Martie 2026                                                                                       Titular activități de proiect,
+                                                                                                          Prof. dr. ing. Florin Dumitru MOLDOVEANU

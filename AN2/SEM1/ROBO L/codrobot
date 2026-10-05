@@ -1,0 +1,98 @@
+#include <QTRSensors.h>
+#include <SparkFun_TB6612.h>
+
+#define AIN1 18
+#define AIN2 19
+#define PWMA 20
+#define BIN1 10
+#define BIN2 9
+#define PWMB 8
+#define STBY 30
+
+const int offsetA = 1;
+const int offsetB = 1;
+
+Motor motorL(AIN1, AIN2, PWMA, offsetA, STBY);
+Motor motorR(BIN1, BIN2, PWMB, offsetB, STBY);
+
+// doar extremele
+const uint8_t sensorPins[] = {0, 1, 2, 3, 4, 5, 6, 7};
+const uint8_t SENSOR_COUNT = 8;
+
+QTRSensors qtr;
+uint16_t sensorValues[SENSOR_COUNT];
+
+float KP = 0.08;
+float KD = 0.04;
+
+int BASE_SPEED = 55;
+int SEARCH_SPEED = 25;
+
+int lastError = 0;
+bool lineLost = false;
+
+void setup() {
+  Serial.begin(115200);
+
+  qtr.setTypeRC();
+  qtr.setSensorPins(sensorPins, SENSOR_COUNT);
+
+  delay(2000);
+
+  unsigned long t0 = millis();
+  while (millis() - t0 < 4000) {
+    qtr.calibrate();
+  }
+
+  brake(motorL, motorR);
+}
+
+void loop() {
+  uint16_t position = qtr.readLineBlack(sensorValues);
+
+  bool seesLine = false;
+  for (int i = 0; i < SENSOR_COUNT; i++) {
+    if (sensorValues[i] > 200) {
+      seesLine = true;
+      break;
+    }
+  }
+
+  int error;
+
+  if (seesLine) {
+    int center = (SENSOR_COUNT - 1) * 1000 / 2;
+    error = (int)position - center;
+    lastError = error;
+    lineLost = false;
+  } else {
+    lineLost = true;
+    error = lastError;
+  }
+
+  int derivative = error - lastError;
+
+  int correction = (int)(KP * error + KD * derivative);
+
+  int leftSpeed;
+  int rightSpeed;
+
+  if (lineLost) {
+    if (error > 0) {
+      leftSpeed  = SEARCH_SPEED;
+      rightSpeed = BASE_SPEED;
+    } else {
+      leftSpeed  = BASE_SPEED;
+      rightSpeed = SEARCH_SPEED;
+    }
+  } else {
+    leftSpeed  = BASE_SPEED + correction;
+    rightSpeed = BASE_SPEED - correction;
+  }
+
+  if (leftSpeed < 0) leftSpeed = 0;
+  if (rightSpeed < 0) rightSpeed = 0;
+
+  motorL.drive(leftSpeed);
+  motorR.drive(rightSpeed);
+}

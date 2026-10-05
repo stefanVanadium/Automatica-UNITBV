@@ -1,0 +1,108 @@
+# Arhive prea mari pentru git
+Facultatee.rar
+
+# MATLAB / Simulink
+SupportPackages/
+slprj/
+*.slxc
+*.asv
+*.autosave
+*.mexa64
+*.mexw64
+*_ert_rtw/
+*_grt_rtw/
+*_rtw/
+
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# C / C++ / C# / Visual Studio
+*.o
+*.obj
+*.exe
+*.elf
+*.hex
+.vs/
+bin/
+obj/
+Debug/
+Release/
+x64/
+*.user
+*.suo
+
+# Java
+*.class
+
+# LaTeX (fișiere generate la compilare)
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+
+# KiCad
+*-backups/
+fp-info-cache
+*.kicad_prl
+_autosave-*
+
+# Editoare / sistem
+.history/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+*.swp
+
+# NuGet (pachete descărcate automat de Visual Studio)
+packages/
+*.nupkg
+
+# Simulink: backup-uri vechi
+*.r20[0-9][0-9][ab]
+
+# Biblioteci / fișiere generate, descărcabile oricând
+# Biblioteca Arduino generată de MATLAB la build
+AN2/SEM1/TS1 L/R2025b/
+*.dep
+# Biblioteci Arduino, se instaleaza din Library Manager
+AN2/SEM1/ROBO L/libraries/
+# Resurse de la o pagină web salvată
+*_files/
+
+# Executabile compilate fără extensie
+AN2/SEM1/PA L/Lab2/ex1
+
+# zip-uri PCLP 3 dezarhivate in foldere, intra doar codul
+AN2/SEM2/PCLP 3/teme/Lab7.zip
+AN2/SEM2/PCLP 3/teme/Lab10.zip
+AN2/SEM2/PCLP 3/teme/Lab11.zip
+
+# Fișiere de configurare pentru asistenți AI
+.claude/
+CLAUDE.md
+**/.github/agents/
+
+# arhive: se dezarhiveaza inainte de commit
+*.zip
+*.rar
+*.7z
+
+# proiectele ASCN (al meu si ale colegilor) raman doar local, nu sunt publice
+AN2/SEM2/ASCN/proiect/*
+!AN2/SEM2/ASCN/proiect/ASCN I_curs.pdf
+!AN2/SEM2/ASCN/proiect/978-606-19-1817-1-work.pdf
+!AN2/SEM2/ASCN/proiect/ASCN 1 tema 12
+!AN2/SEM2/ASCN/proiect/ASCN I Tema 12-2026.doc

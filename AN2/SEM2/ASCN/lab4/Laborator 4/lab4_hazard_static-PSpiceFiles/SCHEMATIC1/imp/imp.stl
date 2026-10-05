@@ -1,0 +1,31 @@
+* D:\PERSONAL\ANUL 2\SEM2\ASCN\laboratoare\LAB4\lab4_hazard_static-PSpiceFiles\SCHEMATIC1\imp\imp.stl written on Fri May 01 17:54:34 2020
+* by Stimulus Editor -- Lite Version 17.2.0
+;!Stimulus Get
+;! A Digital B Digital C Digital D Digital E Digital
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 400ns
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS E STIM (1, 1)
++   +0s 0
+.STIMULUS D STIM (1, 1) ;! CLOCKP 100ns 5ns 1 0
++   +0s 1
++   +5ns 0
++   Repeat Forever
++      +95ns 1
++      +5ns 0
++   EndRepeat
+.STIMULUS C STIM (1, 1) ;! CLOCKP 100ns 95ns 0 0
++   +0s 0
++   +5ns 1
++   Repeat Forever
++      +95ns 0
++      +5ns 1
++   EndRepeat
+.STIMULUS B STIM (1, 1)
++   +0s 1
+.STIMULUS A STIM (1, 1)
++   +0s 1

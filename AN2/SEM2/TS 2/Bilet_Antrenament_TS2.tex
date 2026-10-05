@@ -1,0 +1,64 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[romanian]{babel}
+\usepackage[margin=2.2cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{enumitem}
+\usepackage{parskip}
+\pagestyle{empty}
+
+\begin{document}
+\begin{center}
+{\large\bfseries MODEL DE ANTRENAMENT --- TS2}\\[2pt]
+{\small (subiect generat pentru autoevaluare, nu e biletul oficial de examen)}
+\end{center}
+\vspace{0.3cm}
+
+\begin{enumerate}[leftmargin=1.4em]
+
+\item Se consideră sistemul reprezentat prin următoare funcție de transfer:
+$$G_0(s)=\frac{2s+3}{s^2+7s+10}$$
+\begin{enumerate}[label=\alph*)]
+\item Să se determine modelul la stare. (0.75p)
+\item Să se realizeze schema bloc. (0.5p)
+\item Să se determine răspunsul procesului (la intrare treaptă unitară). (0.75p)
+\item Să se determine dacă procesul este controlabil. (0.5p)
+\end{enumerate}
+
+\item Fie un sistem cu reacție negativă unitară în care:
+$$G(s)=8\,\frac{0.25s+1}{s}$$
+\begin{enumerate}[label=\alph*)]
+\item Trasați caracteristicile amplitudine-pulsație și fază-pulsație. (1p)
+\item Să se calculeze eroarea staționară. (0.5p)
+\end{enumerate}
+
+\item Fie un sistem de reglare cu funcția de transfer pe calea directă $G(s)$ și funcția de transfer pe calea de reacție, $H(s)$:
+$$G(s)=\frac{k}{s(s+4)}\qquad H(s)=\frac1{s+2}$$
+\begin{enumerate}[label=\alph*)]
+\item Folosind curba polară să se determine domeniul de valori al factorului de amplificare pentru care sistemul în circuit închis este stabil. Trasați curba polară. (1p)
+\item Să se calculeze marginea de fază. (0.5p)
+\end{enumerate}
+
+\item Se dă sistemul cu reacție negativă unitară, cu funcția de transfer în circuit deschis:
+$$G(s)=\frac{K(s+4)}{s(s+3)(s^2+2s+5)}$$
+Să se traseze locul rădăcinilor. (1.5p)
+
+\item Fie sistemul în circuit închis de următoarea formă:
+$$G(s)=\frac{16}{s^2+8s+16}$$
+Să se calculeze și să se schițeze răspunsul sistemului pentru o mărime de intrare $u(t)=3\sin3t$. (1p)
+
+\end{enumerate}
+
+\textbf{Teorie:}
+\begin{enumerate}[leftmargin=1.4em]
+\item Cum se aproximează, în domeniul frecvenței, caracteristica amplitudine-pulsație pentru un element de ordinul doi cu poli complex conjugați?
+\item Ce reprezintă frecvența de frângere $\omega_f$ a unui factor de ordinul întâi și cum modifică ea panta asimptotei Bode?
+\item Care sunt indicatorii de calitate din domeniul timpului ce caracterizează un sistem în circuit închis?
+\item Să se realizeze schema bloc de reglare pentru un sistem cu reacție negativă unitară și element de execuție cu funcție de transfer $H_e(s)$.
+\end{enumerate}
+
+\vspace{0.2cm}
+\small Toate subiectele teoretice valorează 1 punct.
+
+\end{document}

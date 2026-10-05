@@ -1,0 +1,48 @@
+import numpy as np
+
+# citire (presupun că ai fișierele A.txt și b.txt)
+with open("A.txt") as f:
+    A = np.array([list(map(float, row.split()[1:])) for row in f])
+
+with open("b.txt") as f:
+    b = np.array([float(x) for x in f])
+
+print(A.shape, b.shape)
+
+# ----------------------------------------------------
+# Varianta 1 – Gauss simplu + back-substitution
+def gauss_elim(A, b):
+    n = len(b)
+    A = A.copy().astype(float)
+    b = b.copy().astype(float)
+    
+    for col in range(n):
+        for row in range(col+1, n):
+            if A[col, col] == 0:
+                continue
+            factor = A[row, col] / A[col, col]
+            A[row, col:] -= factor * A[col, col:]
+            b[row] -= factor * b[col]
+    return A, b
+
+def back_sub(A, b):
+    n = len(b)
+    x = np.zeros(n)
+    for i in range(n-1, -1, -1):
+        x[i] = (b[i] - A[i, i+1:] @ x[i+1:]) / A[i, i]
+    return x
+
+A2, b2 = gauss_elim(A, b)
+x_gauss = back_sub(A2, b2)
+
+# ----------------------------------------------------
+# Varianta 2 – folosind np (pentru comparație)
+x_np = np.linalg.solve(A, b)
+
+print("Primele 5 soluții Gauss:", x_gauss[:5])
+print("Primele 5 soluții NumPy:", x_np[:5])
+
+err_g = np.linalg.norm(A @ x_gauss - b, 1)
+err_n = np.linalg.norm(A @ x_np - b, 1)
+print(f"Eroare Gauss: {err_g:.2e}")
+print(f"Eroare NumPy: {err_n:.2e}")

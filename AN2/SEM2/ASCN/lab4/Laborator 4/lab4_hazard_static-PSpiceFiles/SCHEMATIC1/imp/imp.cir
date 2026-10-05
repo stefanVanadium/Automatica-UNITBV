@@ -1,0 +1,22 @@
+** Profile: "SCHEMATIC1-imp"  [ D:\PERSONAL\ANUL 2\SEM2\ASCN\laboratoare\LAB4\lab4_hazard_static-PSpiceFiles\SCHEMATIC1\imp.sim ] 
+
+** Creating circuit file "imp.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+.INC "D:\PERSONAL\ANUL 2\SEM2\ASCN\laboratoare\LAB4\lab4_hazard_static-PSpiceFiles\SCHEMATIC1\imp\imp_profile.inc" 
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Diana\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 200ns 0 
+.OPTIONS ADVCONV
+.OPTIONS DIGIOLVL= 2
+.OPTIONS DIGMNTYMX= 4
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

@@ -1,0 +1,13 @@
+* D:\PERSONAL\ANUL 2\SEM2\ASCN\laboratoare\LAB4\lab4_hazard_static-PSpiceFiles\SCHEMATIC1\hazard\hazard.stl written on Fri May 01 12:20:40 2020
+* by Stimulus Editor -- Lite Version 17.2.0
+;!Stimulus Get
+;! impl Analog
+;!Ok
+;!Plot Axis_Settings
+;!Xrange 0s 60ms
+;!Yrange 0 2
+;!AutoUniverse
+;!XminRes 1ns
+;!YminRes 1n
+;!Ok
+.STIMULUS impl SIN( 1 0 50 0 0 0 )
